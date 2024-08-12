@@ -21,8 +21,9 @@ This Node.js REST API provides user authentication and CRUD operations with JWT-
 
 ## Installation
 
-1. **Clone the Repository**
+### Install Dependencies
 
-   ```bash
-   git clone https://github.com/yourusername/nodejs-auth-api.git
-   cd nodejs-auth-api
+Install the required Node.js packages:
+
+```bash
+npm install
