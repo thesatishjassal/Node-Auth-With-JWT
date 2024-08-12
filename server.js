@@ -12,7 +12,6 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(helmet());
 
 app.get("/", (req, res) => {
   res.send("Nodejs API Wih Auth JWT Wiith User Crud");
